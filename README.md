@@ -1,8 +1,8 @@
 # IMR Assignment 2 – CNV to CF-Compliant NetCDF Converter
 
-This repository was created for the **Institute of Marine Research (IMR)** for the **Data and Information Manager** and the **EAF-Nansen Programme**.
+This repository was created for the **Institute of Marine Research (IMR)** and the **EAF-Nansen Program**.
 
-The assignment involves converting a CNV file from a thermosalinograph into a **trajectory-style NetCDF** file compliant with the **Climate and Forecast (CF) Metadata Conventions**, including proper metadata population with CF-standard attributes and standard names.
+This tool convert a CNV file from a SBE thermosalinograph into a **trajectory-style NetCDF** file compliant with the **Climate and Forecast (CF) Metadata Conventions**, including proper metadata population with CF-standard attributes and standard names.
 
 ## Repository Structure
 
@@ -49,7 +49,7 @@ Ensure the CNV file is named `*.cnv` and is located in the same folder as the sc
 
 ---
 
-## 2. 🎁 Bonus: IOOS Quality Control Extensions (Optional)
+## 2. Additional: IOOS Quality Control Extensions (Optional)
 
 The `ioos_qc/` folder provides additional quality control workflows using **IOOS QC tests**. It includes:
 - Temperature/salinity/wetstar QC flagging

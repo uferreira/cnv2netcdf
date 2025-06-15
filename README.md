@@ -1,6 +1,6 @@
 # IMR Assignment 2 – CNV to CF-Compliant NetCDF Converter
 
-This repository was created as part of the hiring process for the **Institute of Marine Research (IMR)** for the **Data and Information Manager** position within the **EAF-Nansen Programme**.
+This repository was created for the **Institute of Marine Research (IMR)** for the **Data and Information Manager** and the **EAF-Nansen Programme**.
 
 The assignment involves converting a CNV file from a thermosalinograph into a **trajectory-style NetCDF** file compliant with the **Climate and Forecast (CF) Metadata Conventions**, including proper metadata population with CF-standard attributes and standard names.
 
@@ -42,10 +42,10 @@ The assignment involves converting a CNV file from a thermosalinograph into a **
 ### 🚀 How to Run
 
 ```bash
-python convert_cnv_to_netcdf.py
+python convert_cnv_to_netcdf.py --input [input cnv file name].cnv --output [output nc file name].nc
 ```
 
-Ensure the CNV file is named `20210602.cnv` and is located in the same folder as the script.
+Ensure the CNV file is named `*.cnv` and is located in the same folder as the script.
 
 ---
 
@@ -71,8 +71,8 @@ These tools can be used to complement and extend the validation of oceanographic
 
 ## 🧑‍💼 Author
 
-**Uggo (Luna)**  
-Oceanographer with 15+ years experience in environmental data, currently applying for the EAF-Nansen Programme at IMR.
+**Uggo Pinho**  
+Oceanographer and Ocean Data Analyst.
 
 ---
 

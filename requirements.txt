@@ -1,0 +1,11 @@
+xarray
+netCDF4
+numpy
+pandas
+matplotlib
+plotly
+folium
+ioos_qc
+cf_xarray
+scipy
+jupyter

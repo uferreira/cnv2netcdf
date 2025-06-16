@@ -33,11 +33,16 @@ This tool convert a CNV file from a SBE thermosalinograph into a **trajectory-st
 - Converts it to a **trajectory-style NetCDF** file using `xarray` and `netCDF4`.
 - Applies **CF-1.8 conventions**, using appropriate `standard_name`, `units`, and `coordinates`.
 
-### 🛠 Technologies
-- Python 3
-- xarray
-- netCDF4
-- pandas
+### 🛠 Technologies & Setup
+
+This project uses Python and the following key packages:
+- `xarray`, `netCDF4`, `pandas`, `numpy`, `plotly`, `folium`, `ioos_qc`, etc.
+
+📦 To install all required dependencies, run:
+
+```bash
+pip install -r requirements.txt
+
 
 ### 🚀 How to Run
 

@@ -42,7 +42,7 @@ This project uses Python and the following key packages:
 
 ```bash
 pip install -r requirements.txt
-
+```
 
 ### 🚀 How to Run
 
